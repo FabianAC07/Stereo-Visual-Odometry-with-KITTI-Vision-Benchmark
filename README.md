@@ -22,27 +22,27 @@ git clone https://github.com/FabianAC07/Stereo-Visual-Odometry-with-KITTI-Vision
 
 2. Install [mexopencv](https://github.com/kyamagu/mexopencv)
 
-3. Import the dataset to the folder [`data`](data). You can request a download for KITTI "data_odometry_gray.zip" dataset [here](http://www.cvlibs.net/download.php?file=data_odometry_gray.zip)
+3. Import the dataset to the folder [`dataset`](dataset). You can request a download for KITTI "data_odometry_gray.zip" dataset [here](http://www.cvlibs.net/download.php?file=data_odometry_gray.zip)
 
-4. Change the corresponding paramters in the parameters [`parameters.m`](src/parameters.m) file according to your needs
+4. Change the corresponding paramters in the parameters [`parameters.m`](parameters.m) file according to your needs
 
-5. Run the script [`main.m`](src/main.m)
+5. Run the script [`main.m`](main.m)
 
 6. Depending on your choice in the parametes file, you might get a plot of the Visual Odometry estimation during sequence processing
 
-7. Once the process is done, a new file `scr/results` will be created. It will host all the outputs that you request in the parameters file, which can include: 
+7. Once the process is done, a new file `/results` will be created. It will host all the outputs that you request in the parameters file, which can include: 
 
 * Video of the sequence
 * Command Window Output
 * Workspace Output for further post-processing
 
-8. Use the script [plot_results.m](src/plot_results.m) to plot the results from Workspace Output file.
+8. Use the script [plot_results.m](plot_results.m) to plot the results from Workspace Output file.
 
 ### Video Demo
 
 The following video is a demo of the plot output while processing...
 
-https://www.youtube.com/watch?v=NaQ8bB9eXo4
+Video: https://www.youtube.com/watch?v=NaQ8bB9eXo4
 
 
 ## Further Reading
