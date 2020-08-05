@@ -13,7 +13,7 @@ Also, the code uses [OpenCV 3.4.1](https://opencv.org/opencv-3-4-1/) libraries w
  
 The software was tested on a laptop `Intel(R) Core(TM) i7-6500U CPU @ 2.50GHz 2.60 GHz` and `12 GB RAM`.
 
-## How to run the repository?
+## Usage
 
 1. Clone the repository using the following command:
 ```
